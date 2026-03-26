@@ -1,0 +1,9 @@
+{
+	"name": "adf-sqlmigrationroject-dev-001",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e0a2273-740c-4559-864f-651896d3918a",
+		"tenantId": "0b6ca394-c872-45e2-a777-585b0ab835d0"
+	}
+}
