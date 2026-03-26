@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-sqlmigrationroject-dev-001"
+		},
+		"DS_LKP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TBLLKP_password": {
+			"value": ""
+		},
+		"LS_SqlTable_Parquet_accountKey": {
+			"value": ""
+		},
+		"DS_LKP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "BDC7-L-69BYPP3\\SQLEXPRESS"
+		},
+		"DS_LKP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "adfsourcedb"
+		},
+		"DS_LKP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"LS_SQLSERVER_TBLLKP_properties_typeProperties_server": {
+			"value": "BDC7-L-69BYPP3\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TBLLKP_properties_typeProperties_database": {
+			"value": "adfsourcedb"
+		},
+		"LS_SQLSERVER_TBLLKP_properties_typeProperties_userName": {
+			"value": "adfuser"
+		},
+		"LS_SqlTable_Parquet_properties_typeProperties_url": {
+			"value": "https://stmigrationprojectdev001.dfs.core.windows.net/"
+		}
+	}
+}
